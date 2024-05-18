@@ -22,6 +22,8 @@ public class Category {
     @Column(nullable = false, length = 32)
     private String categoryName;
 
+    private int wordsNumber;
+
     @OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
     private List<Word> wordList = new ArrayList<>();
 
