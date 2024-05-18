@@ -9,4 +9,6 @@ import java.util.List;
 public interface WordRepository extends JpaRepository<Word, Long> {
 
     List<Word> findAllByCategory(Category category);
+
+    List<Word> findAllByCategoryAndClickCountLessThan(Category category, int maxClickCount);
 }

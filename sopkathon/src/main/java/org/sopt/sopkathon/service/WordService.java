@@ -40,7 +40,8 @@ public class WordService {
     public SuccessResponse<List<WordResponse>> getWords(Long categoryId){
         Category category = categoryRepository.findById(categoryId)
                 .orElseThrow(() -> new CustomException(NOT_FOUND_CATEGORY));
-        List<Word> words = wordRepository.findAllByCategory(category);
+
+        List<Word> words = wordRepository.findAllByCategoryAndClickCountLessThan(category, 7);
         List<WordResponse> wordResponses = words.stream()
                 .map(WordResponse::of)
                 .collect(Collectors.toList());
