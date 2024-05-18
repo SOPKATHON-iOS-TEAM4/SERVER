@@ -7,7 +7,12 @@ import org.sopt.sopkathon.dto.response.WordResponse;
 import org.sopt.sopkathon.exception.dto.SuccessResponse;
 import org.sopt.sopkathon.service.WordService;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -33,5 +38,13 @@ public class WordController {
             @PathVariable("category_id") Long category_id) {
                 SuccessResponse<List<WordResponse>> response = wordService.getWords(category_id);
                 return ResponseEntity.ok(response);
+    }
+
+    @GetMapping("/{category_id}/words/{word_id}")
+    public ResponseEntity<SuccessResponse> getWord(
+            @PathVariable("category_id") Long category_id,
+            @PathVariable("word_id") Long word_id) {
+        SuccessResponse response = wordService.getWord(category_id, word_id);
+        return ResponseEntity.ok(response);
     }
 }

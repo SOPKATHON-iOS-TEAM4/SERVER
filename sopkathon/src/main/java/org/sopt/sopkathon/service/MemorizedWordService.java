@@ -24,7 +24,7 @@ public class MemorizedWordService {
                         memorizedWord.getMemorizedMeaning()))
                 .collect(Collectors.toList());
 
-        return SuccessResponse.of(SuccessMessage.SUCCESS_GET_MEMORIZEDWORDS, memorizedWordResponses);
+        return SuccessResponse.of(SuccessMessage.SUCCESS_GET_MEMORIZED_WORDS, memorizedWordResponses);
     }
 
 }
