@@ -134,7 +134,7 @@ ex) feat/#20
 <br/>
 
 ## 📂 Structure
-```elixir
+```text
 ├── build.gradle
 └── 📂 src/main/java/org/sopkathon
         ├── 📂 config // Config 관련 파일 구현
