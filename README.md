@@ -149,7 +149,7 @@ ex) feat/#20
 <br/>
 
 ## 💡 API 명세서
-[https://rowan-octopus-031.notion.site/NOW-Sopkathon-IOS-4-c9f05ece2cd44427b696ebcd25037ec0?pvs=4](https://rainy-index-54e.notion.site/084b38605b044792b8ba3db0738cf8d7?v=8d6a578bede9493990f16b906427944c&pvs=4)
+https://rowan-octopus-031.notion.site/NOW-Sopkathon-IOS-4-c9f05ece2cd44427b696ebcd25037ec0?pvs=4
 
 <br/>
 
