@@ -148,6 +148,11 @@ ex) feat/#20
 
 <br/>
 
+## 💡 API 명세서
+https://rowan-octopus-031.notion.site/NOW-Sopkathon-IOS-4-c9f05ece2cd44427b696ebcd25037ec0?pvs=4
+
+<br/>
+
 ## 📂 Structure
 ```text
 ├── build.gradle
@@ -175,6 +180,13 @@ ex) feat/#20
         │
         └── SopkathonApplication.java
 ```
+<br/>
+
+## 📒 ERD
+<img width="765" alt="image" src="https://github.com/SOPKATHON-iOS-TEAM4/SERVER/assets/150939763/4c5aa2d3-8318-461d-9452-2cdc47b5a245">
+
+
+
 <br/>
 
 ## 📷 Photo
