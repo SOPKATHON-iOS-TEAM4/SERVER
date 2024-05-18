@@ -183,9 +183,7 @@ ex) feat/#20
 <br/>
 
 ## 📒 ERD
-<img width="703" alt="image" src="https://github.com/SOPKATHON-iOS-TEAM4/SERVER/assets/150939763/38cce87a-6c3e-4878-b0b6-07f49db9acf0">
-
-
+<img width="714" alt="image" src="https://github.com/SOPKATHON-iOS-TEAM4/SERVER/assets/81475587/90a6e0aa-731d-430e-91c0-95c4ead4562c">
 
 <br/>
 
