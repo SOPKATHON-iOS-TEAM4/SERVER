@@ -21,4 +21,11 @@ public class WordController {
         SuccessResponse response = wordService.addWord(category_id, wordRequest);
         return ResponseEntity.status(201).body(response);
     }
+
+    @GetMapping("/{category_id}/words")
+    public ResponseEntity<SuccessResponse> getWords(
+            @PathVariable("category_id") Long category_id) {
+                SuccessResponse response = wordService.getWords(category_id);
+                return ResponseEntity.ok(response);
+    }
 }
