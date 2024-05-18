@@ -1,5 +1,20 @@
-## 💡 SOPKATHON_IOS_TEAM4
-> NOW SOPT 34th SOPKATHON 모바일 앱 4팀입니다.
+## 💡 *term blur (텀블러)*
+> 내 손 안의 흐려지는 단어장
+
+<br/>
+
+### 📃 서비스 소개
+**내 폰 속 단어가 흐려질수록, 뚜렷해지는 내 머릿속 단어**
+(0에 가까워질수록, 0에서 멀어진다.)
+
+1. 본인이 **단어 암기 횟수(최소 1회 ~ 최대 9회)를 설정한다.**
+2. 본인이 해당 단어를 **어느정도 외웠는지 (0 ~ 80까지 투명도_디자인 참고) 흐려지는 기능을 통해 확인한다.**
+3. **목표 횟수를 다 채워** 단어를 완벽하게 투명하게 만듦으로써, 목표를 달성한다.
+
+> *”배운 것을 잊어버리고 난 후에 남는 것이 교육이다.”* - 아인슈타인 <br/>
+> *”흐려지고 나서야 비로소 뚜렷해졌다.”* - 텀블러
+
+</aside>
 <br/>
 
 
@@ -160,3 +175,9 @@ ex) feat/#20
         │
         └── SopkathonApplication.java
 ```
+<br/>
+
+## 📷 Photo
+### 솝커톤 시작(before)
+| <img src="https://github.com/SOPKATHON-iOS-TEAM4/SERVER/assets/150939763/0b1ea0ff-45cd-402b-b426-8885defe4a0d" width=500px alt="서버 사진"/>  | <img src="https://github.com/SOPKATHON-iOS-TEAM4/SERVER/assets/150939763/2c833608-efcb-442e-99c0-872826c29385" width=500px alt="팀 사진"/>
+| :-----: | :-----: |
