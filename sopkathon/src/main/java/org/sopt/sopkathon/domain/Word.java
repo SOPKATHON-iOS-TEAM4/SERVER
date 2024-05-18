@@ -18,7 +18,7 @@ public class Word {
     private Long wordId;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "categoryId")
+    @JoinColumn(name = "category_id")
     private Category category;
 
     @Column(nullable = false, length = 64)
