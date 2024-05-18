@@ -1,15 +1,24 @@
 package org.sopt.sopkathon.domain;
 
-import jakarta.persistence.*;
+import static lombok.AccessLevel.PRIVATE;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
-import static lombok.AccessLevel.PRIVATE;
+import lombok.Setter;
 
 @Entity
 @Getter
+@Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Word {
 
@@ -30,16 +39,15 @@ public class Word {
     private int clickCount;
 
     @Builder(access = PRIVATE)
-    private Word(final Category category, final String vocabulary, final String meaning, final int clickCount)
-    {
+    private Word(final Category category, final String vocabulary, final String meaning, final int clickCount) {
         this.category = category;
         this.vocabulary = vocabulary;
         this.meaning = meaning;
         this.clickCount = clickCount;
     }
 
-    public static Word createWord(final Category category, final String vocabulary, final String meaning, final int clickCount)
-    {
+    public static Word createWord(final Category category, final String vocabulary, final String meaning,
+                                  final int clickCount) {
         return Word.builder()
                 .category(category)
                 .vocabulary(vocabulary)
