@@ -1,24 +1,28 @@
-## 💡 *term blur (텀블러)*
-> 내 손 안의 흐려지는 단어장
+# 🧊 *term b/ur (텀블러)*
+> 내 손 안의 흐려지는 단어장, 'term b/ur' 는 자신이 단어를 얼마나 잘 암기했는지 객관적으로 파악할 수 없는 불편한 문제점을 흐려짐을 통해 쉽고 직관적으로 암기 정도를 파악할 수 있도록 도움을 주는 모바일 서비스입니다.
+<img width="936" alt="image" src="https://github.com/SOPKATHON-iOS-TEAM4/SERVER/assets/150939763/1d383f19-d6f6-462a-b6bf-24da39f87ea1">
 
 <br/>
+<br/>
 
-### 📃 서비스 소개
-**내 폰 속 단어가 흐려질수록, 뚜렷해지는 내 머릿속 단어**
-(0에 가까워질수록, 0에서 멀어진다.)
+# 🧊 목적 및 필요성
+<img width="936" alt="image" src="https://github.com/SOPKATHON-iOS-TEAM4/SERVER/assets/150939763/7e0f8d7d-2e28-4049-8b2d-f232e0d9cb2c">
+<img width="936" alt="image" src="https://github.com/SOPKATHON-iOS-TEAM4/SERVER/assets/150939763/de275c55-6748-4d72-9fae-2b8e2040c492">
+<img width="936" alt="image" src="https://github.com/SOPKATHON-iOS-TEAM4/SERVER/assets/150939763/fec9fade-3c8a-4511-95c7-d0836ace561b">
+<img width="936" alt="image" src="https://github.com/SOPKATHON-iOS-TEAM4/SERVER/assets/150939763/e2497478-afb4-42a4-a9a3-7160a21b85f8">
 
-1. 본인이 **단어 암기 횟수(최소 1회 ~ 최대 9회)를 설정한다.**
-2. 본인이 해당 단어를 **어느정도 외웠는지 (0 ~ 80까지 투명도_디자인 참고) 흐려지는 기능을 통해 확인한다.**
-3. **목표 횟수를 다 채워** 단어를 완벽하게 투명하게 만듦으로써, 목표를 달성한다.
+<br/>
+<br/>
 
-> *”배운 것을 잊어버리고 난 후에 남는 것이 교육이다.”* - 아인슈타인 <br/>
-> *”흐려지고 나서야 비로소 뚜렷해졌다.”* - 텀블러
+# 🧊 서비스 소개
+<img width="935" alt="image" src="https://github.com/SOPKATHON-iOS-TEAM4/SERVER/assets/150939763/3f9b2af5-e580-4602-90c4-3f25d3f99689">
+<img width="936" alt="image" src="https://github.com/SOPKATHON-iOS-TEAM4/SERVER/assets/150939763/7de99edd-dfdd-440d-b4a1-15ff0c5be9d4">
 
-</aside>
+<br/>
 <br/>
 
 
-##  Back-end (Spring 🌱)
+# Back-end (Spring 🌱)
 | <img src="https://avatars.githubusercontent.com/u/81475587?v=4" width=300px alt="서버/김창균"/>  | <img src="https://avatars.githubusercontent.com/u/150939763?v=4" width=300px alt="서버/정정교"/>
 | :-----: | :-----: |
 | [김창균/ckkim817](https://github.com/ckkim817) | [정정교/Junggyo1020](https://github.com/junggyo1020) 
@@ -188,6 +192,6 @@ https://rowan-octopus-031.notion.site/NOW-Sopkathon-IOS-4-c9f05ece2cd44427b696eb
 <br/>
 
 ## 📷 Photo
-### 솝커톤 시작(before)
+### 솝커톤 사진
 | <img src="https://github.com/SOPKATHON-iOS-TEAM4/SERVER/assets/150939763/0b1ea0ff-45cd-402b-b426-8885defe4a0d" width=500px alt="서버 사진"/>  | <img src="https://github.com/SOPKATHON-iOS-TEAM4/SERVER/assets/150939763/2c833608-efcb-442e-99c0-872826c29385" width=500px alt="팀 사진"/>
 | :-----: | :-----: |
